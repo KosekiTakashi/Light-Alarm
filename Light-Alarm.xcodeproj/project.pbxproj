@@ -13,6 +13,7 @@
 		B45E16F023E2FBF900CA6AD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45E16EE23E2FBF900CA6AD9 /* Main.storyboard */; };
 		B45E16F223E2FBFB00CA6AD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45E16F123E2FBFB00CA6AD9 /* Assets.xcassets */; };
 		B45E16F523E2FBFB00CA6AD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45E16F323E2FBFB00CA6AD9 /* LaunchScreen.storyboard */; };
+		B45E16FD23E2FE2B00CA6AD9 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45E16FC23E2FE2B00CA6AD9 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B45E16F123E2FBFB00CA6AD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B45E16F423E2FBFB00CA6AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B45E16F623E2FBFB00CA6AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B45E16FC23E2FE2B00CA6AD9 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				B45E16E823E2FBF900CA6AD9 /* AppDelegate.swift */,
 				B45E16EA23E2FBF900CA6AD9 /* SceneDelegate.swift */,
 				B45E16EC23E2FBF900CA6AD9 /* ViewController.swift */,
+				B45E16FC23E2FE2B00CA6AD9 /* NextViewController.swift */,
 				B45E16EE23E2FBF900CA6AD9 /* Main.storyboard */,
 				B45E16F123E2FBFB00CA6AD9 /* Assets.xcassets */,
 				B45E16F323E2FBFB00CA6AD9 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B45E16ED23E2FBF900CA6AD9 /* ViewController.swift in Sources */,
+				B45E16FD23E2FE2B00CA6AD9 /* NextViewController.swift in Sources */,
 				B45E16E923E2FBF900CA6AD9 /* AppDelegate.swift in Sources */,
 				B45E16EB23E2FBF900CA6AD9 /* SceneDelegate.swift in Sources */,
 			);
