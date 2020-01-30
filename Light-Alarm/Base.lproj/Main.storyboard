@@ -46,6 +46,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="1w5-yd-2Y0"/>
                     <connections>
+                        <outlet property="TimeLabel" destination="Jj1-A3-2WR" id="SCe-UP-eXx"/>
                         <segue destination="A1O-kZ-eUo" kind="show" identifier="next" id="Kkv-MR-izG"/>
                     </connections>
                 </viewController>
