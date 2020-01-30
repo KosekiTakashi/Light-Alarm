@@ -14,6 +14,7 @@
 		B45E16F223E2FBFB00CA6AD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45E16F123E2FBFB00CA6AD9 /* Assets.xcassets */; };
 		B45E16F523E2FBFB00CA6AD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45E16F323E2FBFB00CA6AD9 /* LaunchScreen.storyboard */; };
 		B45E16FD23E2FE2B00CA6AD9 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45E16FC23E2FE2B00CA6AD9 /* NextViewController.swift */; };
+		B45E16FF23E3030000CA6AD9 /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45E16FE23E3030000CA6AD9 /* Light.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B45E16F423E2FBFB00CA6AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B45E16F623E2FBFB00CA6AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B45E16FC23E2FE2B00CA6AD9 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		B45E16FE23E3030000CA6AD9 /* Light.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		B45E16E723E2FBF900CA6AD9 /* Light-Alarm */ = {
 			isa = PBXGroup;
 			children = (
+				B45E170123E3031200CA6AD9 /* Model */,
 				B45E16E823E2FBF900CA6AD9 /* AppDelegate.swift */,
 				B45E16EA23E2FBF900CA6AD9 /* SceneDelegate.swift */,
 				B45E16EC23E2FBF900CA6AD9 /* ViewController.swift */,
@@ -68,6 +71,14 @@
 				B45E16F623E2FBFB00CA6AD9 /* Info.plist */,
 			);
 			path = "Light-Alarm";
+			sourceTree = "<group>";
+		};
+		B45E170123E3031200CA6AD9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B45E16FE23E3030000CA6AD9 /* Light.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B45E16ED23E2FBF900CA6AD9 /* ViewController.swift in Sources */,
+				B45E16FF23E3030000CA6AD9 /* Light.swift in Sources */,
 				B45E16FD23E2FE2B00CA6AD9 /* NextViewController.swift in Sources */,
 				B45E16E923E2FBF900CA6AD9 /* AppDelegate.swift in Sources */,
 				B45E16EB23E2FBF900CA6AD9 /* SceneDelegate.swift in Sources */,

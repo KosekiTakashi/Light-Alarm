@@ -28,6 +28,9 @@
                                 <rect key="frame" x="102" y="614" width="210" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="スタート"/>
+                                <connections>
+                                    <action selector="startAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pbd-r4-i1y"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -54,21 +57,36 @@
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="116.51785714285714"/>
         </scene>
-        <!--View Controller-->
+        <!--Next View Controller-->
         <scene sceneID="teD-Ex-FEf">
             <objects>
-                <viewController storyboardIdentifier="next" id="A1O-kZ-eUo" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="next" id="A1O-kZ-eUo" customClass="NextViewController" customModule="Light_Alarm" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ftF-xr-494">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cs4-yL-iHA">
+                                <rect key="frame" x="101" y="607" width="212" height="106"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="stopButton:" destination="A1O-kZ-eUo" eventType="touchUpInside" id="3DT-UN-0sb"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Cs4-yL-iHA" firstAttribute="leading" secondItem="VHV-Wc-KXs" secondAttribute="leading" constant="101" id="4B3-Bk-1jc"/>
+                            <constraint firstItem="VHV-Wc-KXs" firstAttribute="trailing" secondItem="Cs4-yL-iHA" secondAttribute="trailing" constant="101" id="W82-6Q-WZY"/>
+                            <constraint firstItem="VHV-Wc-KXs" firstAttribute="bottom" secondItem="Cs4-yL-iHA" secondAttribute="bottom" constant="149" id="ZR4-dl-fBe"/>
+                            <constraint firstItem="Cs4-yL-iHA" firstAttribute="top" secondItem="VHV-Wc-KXs" secondAttribute="top" constant="519" id="rxi-Zm-URl"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="VHV-Wc-KXs"/>
                     </view>
                     <navigationItem key="navigationItem" id="8Ks-2x-pIs"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ccR-0V-5AY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1951" y="117"/>
+            <point key="canvasLocation" x="1950.7246376811595" y="116.51785714285714"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="RNW-0S-WjM">

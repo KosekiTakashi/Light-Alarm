@@ -20,6 +20,18 @@ class ViewController: UIViewController {
     }
     
     
+ 
+    @IBAction func startAction(_ sender: Any) {
+        
+        let nextVC = storyboard?.instantiateViewController(identifier: "next") as! NextViewController
+        navigationController?.pushViewController(nextVC, animated: true)
+        
+//        performSegue(withIdentifier: "next", sender: nil)
+        
+        
+    }
+    
+    
 
 
 }
